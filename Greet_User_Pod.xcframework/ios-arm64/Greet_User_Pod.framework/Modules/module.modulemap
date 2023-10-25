@@ -1,0 +1,11 @@
+framework module Greet_User_Pod {
+  umbrella header "Greet_User_Pod.h"
+  export *
+
+  module * { export * }
+}
+
+module Greet_User_Pod.Swift {
+  header "Greet_User_Pod-Swift.h"
+  requires objc
+}

@@ -1,0 +1,199 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Greet_User_Pod",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Greet_User_Pod",
+        "printedName": "Greet_User_Pod",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "greetUserGoodEvening",
+            "printedName": "greetUserGoodEvening(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Greet_User_PodAAC05greetB11GoodEvening4nameySS_tF",
+            "mangledName": "$s14Greet_User_PodAAC05greetB11GoodEvening4nameySS_tF",
+            "moduleName": "Greet_User_Pod",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "greetUserGoodMorning",
+            "printedName": "greetUserGoodMorning(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Greet_User_PodAAC05greetB11GoodMorning4nameySS_tF",
+            "mangledName": "$s14Greet_User_PodAAC05greetB11GoodMorning4nameySS_tF",
+            "moduleName": "Greet_User_Pod",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Greet_User_Pod",
+                "printedName": "Greet_User_Pod.Greet_User_Pod",
+                "usr": "c:@M@Greet_User_Pod@objc(cs)Greet_User_Pod"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Greet_User_Pod@objc(cs)Greet_User_Pod(im)init",
+            "mangledName": "$s14Greet_User_PodAACABycfc",
+            "moduleName": "Greet_User_Pod",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Greet_User_Pod@objc(cs)Greet_User_Pod",
+        "mangledName": "$s14Greet_User_PodAAC",
+        "moduleName": "Greet_User_Pod",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sapphire\/Documents\/FrameworkDistribution\/Cocoapods\/Greet_User_Pod\/Greet_User_Pod\/Greet_User_Pod.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 28,
+      "value": "\"Good Evening \""
+    },
+    {
+      "filePath": "\/Users\/sapphire\/Documents\/FrameworkDistribution\/Cocoapods\/Greet_User_Pod\/Greet_User_Pod\/Greet_User_Pod.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 5,
+      "value": "\" !!!!!\""
+    },
+    {
+      "filePath": "\/Users\/sapphire\/Documents\/FrameworkDistribution\/Cocoapods\/Greet_User_Pod\/Greet_User_Pod\/Greet_User_Pod.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 28,
+      "value": "\"Good Morning \""
+    },
+    {
+      "filePath": "\/Users\/sapphire\/Documents\/FrameworkDistribution\/Cocoapods\/Greet_User_Pod\/Greet_User_Pod\/Greet_User_Pod.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 5,
+      "value": "\" !!!!!\""
+    }
+  ]
+}
